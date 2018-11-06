@@ -23,4 +23,10 @@ public class LoginController {
         return  resultMap;
     }
 
+
+    public  Map<String,String> updatePwd(){
+
+        return  null;
+    }
+
 }
