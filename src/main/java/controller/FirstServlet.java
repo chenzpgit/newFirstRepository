@@ -16,6 +16,7 @@ public class FirstServlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
         writer.print("你好，   Hello World");
+        writer.println("新增一行输出");
     }
 
     @Override
