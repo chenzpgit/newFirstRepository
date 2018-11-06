@@ -18,8 +18,9 @@ public class LoginController {
 
 
     public Map<String,Object>  changeStatus(){
-
-        return  null;
+        Map<String,Object> resultMap=new HashMap<>();
+        Map<String,Object> resultMaps=new HashMap<>();
+        return  resultMap;
     }
 
 }
