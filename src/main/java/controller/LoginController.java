@@ -10,12 +10,16 @@ public class LoginController {
 
 
     public Map<String,Object> longin(){
-
         Map<String,Object> resultMap=new HashMap<>();
-
         resultMap.put("success",false);
         return  resultMap;
     }
 
+
+
+    public Map<String,Object>  changeStatus(){
+
+        return  null;
+    }
 
 }
